@@ -11,7 +11,7 @@ LIElement newLI(String itemText) => LIElement()..text = itemText;
 
 Iterable<String> thingsTodo() sync* {
 var actions = ['Walk', 'Wash', 'Feed'];
-var pets = ['cats', 'dogs'];
+var pets = ['cats', 'dogs', 'Humans'];
 
   for (var action in actions) {
     for (var pet in pets) {
@@ -20,6 +20,7 @@ var pets = ['cats', 'dogs'];
     }
   }
 }
+
 
 void addTodoItem(String item) {
   print(item);
